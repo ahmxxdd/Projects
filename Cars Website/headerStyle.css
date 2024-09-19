@@ -1,0 +1,36 @@
+.logo {
+    transform: translateX(-20px);
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 5rem;
+}
+
+.navbar-nav .nav-link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: gray;
+}
+
+.navbar-nav .nav-link:active {
+    color: gray;
+}
+
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
