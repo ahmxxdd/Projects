@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Image/x-icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="Styling/contactPage.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="Images/MAD_SHOES.png" height="200px" width="200px">
+        <h1 title="heading-one">MAD-Shoes</h1>
+        <h3>Home of the greatest shoe comparing store known to man!</h3>
+        <nav>
+            <a class="homepage" href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Footwear</button>
+                <div class="dropdown-content">
+                <a href="WalkingShoes.html">Walking Shoes</a>
+                <a href="runningShoes.html">Running Shoes</a>
+                <a href="hikingshoes.html">Hiking Shoes</a>
+                <a href="cleats.html">Cleats</a>
+                </div>
+            </div>
+            <a class="contact" href="contact.html">Contact</a>
+            <a class="aboutUs" href="aboutUs.html">About Us</a>
+        </nav>
+    </header>
+<h2>Contact Us</h2>
+    <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>Copyright &copy;2023</p>
+        <p>Developed By: Maleek, Ahmed, and Dario. </p>
+        <section id="countdown">
+            <h2>Countdown to Boxing Day</h2>
+            <p id="countdown-text">Calculatiing...</p>
+        </section>
+        <script src="days_to_boxing_day.js"></script>
+    </footer>
+</body>
+</html>
